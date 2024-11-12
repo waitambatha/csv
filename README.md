@@ -1,27 +1,37 @@
-🚀 Data Processor Django Project
-Welcome to the Data Processor Django Project! This project processes CSV files in an ETL (Extract, Transform, Load) workflow using Django, PostgreSQL, and Python libraries such as pandas. The system reads data from CSV files, cleans and transforms it, and loads it into a PostgreSQL database. Users can interact with the data through specific endpoints provided by Django views.
+# 🚀 Data Processor Django Project
 
-📑 Table of Contents
-Features
-Setup and Installation
-Clone the Repository
-Set Up a Virtual Environment
-Install Requirements
-Configure the Database
-Run the Django Server
-Endpoints
-Additional Resources
-✨ Features
-ETL Process for CSV Data: Reads, cleans, and loads data from CSV files into a PostgreSQL database.
-Database-Driven: Uses PostgreSQL to store and manage processed data.
-Modular Views: Dedicated endpoints for various data interactions.
-Environment Variable Configuration: Securely stores sensitive database credentials in environment variables.
-⚙️ Setup and Installation
-1. Clone the Repository
+Welcome to the **Data Processor Django Project**! This project processes CSV files in an ETL (Extract, Transform, Load) workflow using Django, PostgreSQL, and Python libraries such as `pandas`. The system reads data from CSV files, cleans and transforms it, and loads it into a PostgreSQL database. Users can interact with the data through specific endpoints provided by Django views.
+
+## 📑 Table of Contents
+
+- [Features](#features)
+- [Setup and Installation](#setup-and-installation)
+  - [Clone the Repository](#clone-the-repository)
+  - [Set Up a Virtual Environment](#set-up-a-virtual-environment)
+  - [Install Requirements](#install-requirements)
+  - [Configure the Database](#configure-the-database)
+  - [Run the Django Server](#run-the-django-server)
+- [Endpoints](#endpoints)
+- [Additional Resources](#additional-resources)
+
+---
+
+## ✨ Features
+
+- **ETL Process for CSV Data**: Reads, cleans, and loads data from CSV files into a PostgreSQL database.
+- **Database-Driven**: Uses PostgreSQL to store and manage processed data.
+- **Modular Views**: Dedicated endpoints for various data interactions.
+- **Environment Variable Configuration**: Securely stores sensitive database credentials in environment variables.
+
+---
+
+## ⚙️ Setup and Installation
+
+### 1. Clone the Repository
+
 Start by cloning the repository to your local machine:
 
-bash
-Copy code
+```bash
 git clone https://github.com/waitambatha/csv.git
 cd csv
 2. Set Up a Virtual Environment
@@ -103,9 +113,3 @@ Output Screenshots: Output Folder
 Source Data: Resources Folder
 Sample .env File: Sample Env
 Configuration Template: config.py
-
-
-
-
-
-
