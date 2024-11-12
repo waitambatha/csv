@@ -76,20 +76,14 @@ WSGI_APPLICATION = 'ev_data_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# settings.py
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_mysql_db',
-        'USER': 'your_mysql_user',
-        'PASSWORD': 'your_mysql_password',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    },
-    'postgres': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_postgres_db',
-        'USER': 'your_postgres_user',
-        'PASSWORD': 'your_postgres_password',
+        'NAME': 'electric_vehicle_db',
+        'USER': 'postgres',
+        'PASSWORD': 'masterclass',
         'HOST': 'localhost',
         'PORT': '5432',
     }
