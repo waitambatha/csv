@@ -7,4 +7,7 @@ class ElectricVehicle(models.Model):
     model_year = models.IntegerField()
     vehicle_type = models.CharField(max_length=50)
     location = models.CharField(max_length=100)
-    # Add more fields based on the CSV structure
+
+
+    class Meta:
+        db_table = 'ElectricVehicle'
