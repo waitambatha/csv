@@ -1,4 +1,3 @@
-
 Data Processor Django Project
 This Django project processes CSV files in an ETL workflow. The project reads data from CSV files, cleans and transforms it, and loads it into a PostgreSQL database. Users can view and manage data through specific endpoints provided by Django views. This guide will walk you through cloning the repository, setting up the environment, configuring the database, and running the Django server.
 
@@ -9,7 +8,7 @@ Install Requirements
 Configure the Database
 Run the Django Server
 Available Endpoints
-
+Additional Resources
 Clone the Repository
 To start, clone this repository to your local machine:
 
@@ -103,3 +102,9 @@ Get Electric Vehicle Data: Retrieve electric vehicle data from the database.
 URL: http://127.0.0.1:8000/get_electric_vehicle_data/
 View: GetElectricVehicleData.as_view()
 Name: get_electric_vehicle_data
+Additional Resources
+Project Documentation: GitHub README.md
+Output Screenshots: Output Folder
+Source Data: Resources Folder
+Sample .env: Sample Env
+Configuration Template: config.py
