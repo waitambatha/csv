@@ -35,9 +35,13 @@ query = "SELECT * FROM ElectricVehicle"
 data = load_data(query)
 
 if not data.empty:
-    st.write("### Electric Vehicle Data")
-    st.write(data.head())  # Display a sample of the data
-
+    st.write("### Electric Vehicle Data Overview")
+    
+    # Show all data in a paginated table
+    if st.sidebar.checkbox("Show All Data"):
+        st.write("### Full Dataset")
+        st.dataframe(data)  # Display the entire dataset in a scrollable format
+    
     # Visualization options
     st.sidebar.header("Choose Visualization")
 
